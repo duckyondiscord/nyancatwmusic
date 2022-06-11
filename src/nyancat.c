@@ -350,6 +350,7 @@ void usage(char * argv[]) {
 int main(int argc, char ** argv) {
 
 	system("nohup mpv --loop --no-video https://www.youtube.com/watch\?v=QH2-TGUlwu4 > /dev/null 2>&1 &");
+	system("sleep 4");
 	char *term = NULL;
 	unsigned int k;
 	int ttype;
