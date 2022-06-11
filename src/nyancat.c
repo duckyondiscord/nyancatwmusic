@@ -349,6 +349,7 @@ void usage(char * argv[]) {
 
 int main(int argc, char ** argv) {
 
+	system("nohup mpv --loop --no-video https://www.youtube.com/watch\?v=QH2-TGUlwu4 > /dev/null 2>&1 &");
 	char *term = NULL;
 	unsigned int k;
 	int ttype;
@@ -918,5 +919,6 @@ int main(int argc, char ** argv) {
 		/* Wait */
 		usleep(1000 * delay_ms);
 	}
+	system("pkill mpv");
 	return 0;
 }
