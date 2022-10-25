@@ -1,4 +1,4 @@
-# Nyancat CLI
+# Nyancat CLI w/ music
 
 Nyancat rendered in your terminal.
 
